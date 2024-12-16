@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="dec_15_app" location="C:/Users/Mark/Desktop/385FINAL_audio_main/FINALPROJECT/dec_15_wkspc/dec_15_app" platform="C:/Users/Mark/Desktop/385FINAL_audio_main/FINALPROJECT/dec_15_wkspc/dec_10_test/export/dec_10_test/dec_10_test.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="dec_15_app_system" sysConfig="dec_10_test" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="6fdf276950d9f1c8a0a0b0c3ba2c360f">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.22365948">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1312629655" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

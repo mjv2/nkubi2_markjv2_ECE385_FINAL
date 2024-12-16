@@ -1,0 +1,40 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/7698" --include "../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0" \
+"../../../../FINALPROJECT.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0_sim_netlist.v" \
+"../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../FINALPROJECT.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../FINALPROJECT.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/ip/mb_block_lmb_bram_0/sim/mb_block_lmb_bram_0.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/ip/mb_block_xbar_0/sim/mb_block_xbar_0.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0_clk_wiz.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/ip/mb_block_xlconcat_0_0/sim/mb_block_xlconcat_0_0.v" \
+"../../../../FINALPROJECT.ip_user_files/bd/mb_block/sim/mb_block.v" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/mb_block_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/7698" --include "../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/sequencer_types.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/Color_Mapper.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/VGA_controller.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/font_rom.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/hex_driver.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/note_slice_compiler.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/sequencer.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/sequencer_top.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/testbench.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv" \
+
+verilog xil_defaultlib  --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/7698" --include "../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0" \
+"../../../../FINALPROJECT.gen/sources_1/bd/mb_block/hdl/mb_block_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" --include "../../../../FINALPROJECT.gen/sources_1/bd/mb_block/ipshared/7698" --include "../../../../FINALPROJECT.gen/sources_1/ip/clk_wiz_0" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/sine.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/square.sv" \
+"../../../../FINALPROJECT.srcs/sources_1/imports/design_source/sawtooth.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
